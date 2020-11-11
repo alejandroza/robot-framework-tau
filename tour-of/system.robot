@@ -1,3 +1,6 @@
+*** Settings ***
+Library  SeleniumLibrary
+
 *** Keywords ***
 Configure Selenium
      Set Selenium Speed    .25 Seconds

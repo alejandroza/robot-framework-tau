@@ -1,0 +1,14 @@
+#*************************************************************************
+#********************************* POWER BI ***********************************
+#*************************************************************************
+
+#######  CREDENTIALS ############
+PBI_USER: qauser@kestrafinancial.com
+#A variable on azure contains the password
+PBI_PASSWORD:    none
+
+####### POWER BI URLS ############
+PBI_LOGIN: https://app.powerbi.com/?noSignUpCheck=1
+
+####### BROWSER ############
+CHROME: chrome

@@ -1,3 +1,9 @@
+*** Settings ***
+Library  OperatingSystem
+Library  Collections
+
+Resource  system.robot
+
 *** Keywords ***
 Read Invoice Fixtures
     ${json_data}=     Get File    ${EXECDIR}/invoice-fixtures.json

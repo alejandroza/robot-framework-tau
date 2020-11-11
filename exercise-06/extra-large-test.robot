@@ -33,5 +33,6 @@ Create an Invoice
     ${resp}=  Get Request    invoice-manager    /invoices/${invoiceId}
     Should Be Equal As Strings  ${resp.status_code}  404
 
+
 *** Keywords ***
 

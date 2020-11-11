@@ -1,3 +1,6 @@
+*** Settings ***
+Library  SeleniumLibrary
+
 *** Keywords ***
 Enter Invoice Number
     [Arguments]    ${invoice_id}
