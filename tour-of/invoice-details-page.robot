@@ -1,5 +1,6 @@
 *** Settings ***
-Library  SeleniumLibrary
+Library     TestProjectLibrary
+#Library     SeleniumLibrary
 
 *** Keywords ***
 Enter Invoice Number
@@ -36,12 +37,12 @@ Submit Invoice Form
 Fill Out Invoice Details
     [Arguments]    ${invoice}
     Enter Invoice Number    ${invoice["id"]}
-    Enter Company Name  ${invoice["company_name"]}
-    Enter Type of Work  ${invoice["type_of_work"]}
-    Select Status  ${invoice["status"]}
-    Enter Amount  ${invoice["amount"]}
-    Enter Due Date  ${invoice["due_date"]}
-    Enter Description   ${invoice["description"]}
+    Enter Company Name      ${invoice["company_name"]}
+    Enter Type of Work      ${invoice["type_of_work"]}
+    Select Status           ${invoice["status"]}
+    Enter Amount            ${invoice["amount"]}
+    Enter Due Date          ${invoice["due_date"]}
+    Enter Description       ${invoice["description"]}
 
 
 

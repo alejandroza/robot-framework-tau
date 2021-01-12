@@ -1,0 +1,12 @@
+{
+    "userPerms": {
+      "jsmith": "Full",
+      "ajones": "Viewer",
+      "azuniga": "Viewer"
+    },
+    "groupPerms": {
+      "All Administrators": "Owner",
+      "Marketing Team": "Editor"
+    },
+    "inheritsPermissions": true
+}

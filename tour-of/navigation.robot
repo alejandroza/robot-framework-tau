@@ -1,5 +1,6 @@
 *** Settings ***
-Library  SeleniumLibrary
+Library     TestProjectLibrary
+#Library     SeleniumLibrary
 
 *** Keywords ***
 Navigate To Add Invoice
